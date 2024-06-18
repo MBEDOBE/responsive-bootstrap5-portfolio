@@ -1,0 +1,41 @@
+:root {
+  --primary: #008aaa;
+  --secondary: #d1884f;
+  --tertiary: #3bbadb;
+}
+
+body {
+  height: 100vh;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.btn-primary {
+  background-color: #008aaa !important;
+  border-color: #008aaa !important;
+}
+
+.btn-outline-dark {
+  border-color: #d1884f !important;
+  color: #d1884f !important;
+}
+.btn-outline-dark:hover {
+  background-color: #d1884f !important;
+  color: #ffffff !important;
+}
+.badge {
+  background-color: var(--secondary) !important;
+}
+.progress-bar {
+  background-color: var(--tertiary) !important;
+}
+.nav-link {
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  color: var(--primary) !important;
+}
+.nav-link:hover {
+  color: var(--secondary) !important;
+}
